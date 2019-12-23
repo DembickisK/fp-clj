@@ -41,7 +41,7 @@
   (map (fn [l] (charat text (second l))) (sort-by first (map vector eIndeces r))))
 
 
-(def source "Geeks For Geeks")
+(def source "Moms Spaghetti")
 
 (println (str "source: " source))
 (def encoded (apply str (encode 4 source)))
